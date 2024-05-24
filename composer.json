@@ -1,0 +1,28 @@
+{
+    "name": "nharavel/contactform",
+    "description": "laravel contactForm package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nharavel\\Contactform\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Nharavel\\Contactform\\ContactFormServiceProvider"
+            ],
+            "aliases": {
+                "Contactform": "Nharavel\\Contactform\\Facade"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Suon Sopanha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
